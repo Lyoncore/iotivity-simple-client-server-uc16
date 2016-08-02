@@ -29,5 +29,5 @@ sudo snap install --devmode iotivity-simpleserver_xxxx.snap
 2. Find another Ubuntu Core 16 system, connect to the same local network as simpleserver, install simpleclient snap package with devmode and run the simpleclient, you can see the simpleclient communicates with simpleserver
 ```
 sudo snap install --devmode iotivity-simpleclient_xxxx.snap
-/snap/bin/iotivity-simpleclient.simpleclient
+iotivity-simpleclient.simpleclient
 ```
