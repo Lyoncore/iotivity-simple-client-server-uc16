@@ -1,12 +1,12 @@
 ## *An Iotivity demo on Ubuntu Core 16*
 
-##### This demo builds two snap packages
+#### This demo builds two snap packages
 * iotivity-simpleserver
   * Run iotivity/resource/examples/simpleserver as a service on Ubuntu Core 16
 * iotivity-simpleclient
   * Build iotivity/resource/examples/simpleclient as a command on Ubuntu Core 16
 
-##### Build steps
+#### Build steps
 1. Clone the source
 ```
 git clone https://github.com/Lyoncore/iotivity-simple-client-server-uc16
@@ -16,7 +16,7 @@ git clone https://github.com/Lyoncore/iotivity-simple-client-server-uc16
 Enter simpleserver-snap or simpleclient-snap folder and run:
 snapcraft
 ```
-##### Install and test
+#### Install and test
 1. Find an Ubuntu Core 16 system, connect to a local network and install simpleserver snap package with devmode
 ```
 sudo snap install --devmode iotivity-simpleserver_xxxx.snap
