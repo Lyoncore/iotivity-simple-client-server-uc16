@@ -6,7 +6,11 @@
 * iotivity-simpleclient
   * Build iotivity/resource/examples/simpleclient as a command on Ubuntu Core 16
 
-#### Build steps
+#### Build and test environment
+* Build on Ubuntu desktop 16.04 on amd64
+* Test on Ubuntu Core 16 on amd64
+
+#### Build steps on Ubuntu desktop 16.04
 1. Clone the source
 ```
 git clone https://github.com/Lyoncore/iotivity-simple-client-server-uc16
@@ -16,7 +20,7 @@ git clone https://github.com/Lyoncore/iotivity-simple-client-server-uc16
 Enter simpleserver-snap or simpleclient-snap folder and run:
 snapcraft
 ```
-#### Install and test
+#### Install and test on Ubuntu Core 16
 1. Find an Ubuntu Core 16 system, connect to a local network and install simpleserver snap package with devmode
 ```
 sudo snap install --devmode iotivity-simpleserver_xxxx.snap
