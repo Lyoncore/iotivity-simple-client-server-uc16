@@ -1,0 +1,14 @@
+name: iotivity-simpleclient
+version: 0.0.1
+summary: An iotivity demo snap
+description: Build an iotivity simple client snap
+confinement: devmode
+
+apps:
+    simpleclient:
+        command: bin/simpleclient
+
+parts:
+    iotivity-src:
+        plugin: make
+        source: .

@@ -1,0 +1,15 @@
+name: iotivity-simpleserver
+version: 0.0.1
+summary: An iotivity demo snap
+description: Build an iotivity simpleserver snap
+confinement: devmode
+
+apps:
+    simpleserver:
+        command: bin/simpleserver
+        daemon: simple
+
+parts:
+    iotivity-src:
+        plugin: make
+        source: .
